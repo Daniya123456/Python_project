@@ -1,0 +1,11 @@
+auth_service:
+  endpoint: "https://login.energy-robotics.com/api/loginApi"
+  user_email: "MAIL"
+  user_api_key_file: 
+  user_api_key: "dFqLQJYT"
+  refresh_interval: 300
+
+api:
+  production_deployment: False
+  dev_url: "https://ccapi-development.devtest.energy-robotics.com/graphql"
+  prod_url: "https://api.graphql.energy-robotics.com/graphql"
